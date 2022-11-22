@@ -12,8 +12,7 @@ public class Fruit : MonoBehaviour
 	// Use this for initialization
 	void Start()
 	{
-		int randomInt = Random.Range(0, fruits.Length);
-		GameObject fruit = fruits[randomInt];
+		GameObject fruit = fruits[Random.Range(0, fruits.Length)];
 		Instantiate(fruit, new Vector3(0f, 0f, 8f), Quaternion.identity, this.gameObject.transform);
 
 		Vector3 up = Vector3.up * Random.Range(50f, 60f);
