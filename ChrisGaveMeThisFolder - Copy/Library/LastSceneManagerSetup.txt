@@ -1,7 +1,7 @@
 sceneSetups:
 - path: Assets/Title 1.unity
-  isLoaded: 1
-  isActive: 1
-- path: Assets/Lucas'sGame.unity
   isLoaded: 0
   isActive: 0
+- path: Assets/Lucas'sGame.unity
+  isLoaded: 1
+  isActive: 1
