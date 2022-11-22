@@ -6,11 +6,13 @@ public class Spawner : MonoBehaviour {
 
 	public GameObject prefab;
 	public float seconds;
+	public float scale = 1f;
 
 	// Use this for initialization
 	void Start () {
-		seconds = Random.Range(2.2f, 3f);
+		seconds = Random.Range(2.2f, 3f) * (1 / scale);
 		StartCoroutine(Spawn());
+		StartCoroutine(Scale());
 	}
 
 	IEnumerator Spawn()
@@ -21,14 +23,17 @@ public class Spawner : MonoBehaviour {
         }
 		GameObject fruit = prefab;
 		Instantiate(fruit, this.gameObject.transform.position, Quaternion.identity);
-		seconds = Random.Range(2.2f, 3f);
+		seconds = Random.Range(2.2f, 3f) * (1 / scale);
 		StartCoroutine(Spawn());
     }
-	
-	// Update is called once per frame
-	void Update () {
-		
 
-
-	}
+	IEnumerator Scale()
+    {
+		for(int i = 0; i < 1; i++)
+        {
+			yield return new WaitForSeconds(0.6f);
+        }
+		scale += 0.01f;
+		StartCoroutine(Scale());
+    }
 }

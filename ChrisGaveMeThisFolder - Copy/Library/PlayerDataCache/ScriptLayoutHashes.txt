@@ -171,7 +171,7 @@ f9e08c059aa421555b007ffddceef706 Assembly-CSharp.dll:.getRealAimAndGoController
 26c4c6ada983faf85fb0118eb6af6cba Assembly-CSharp.dll:.TestSyncListVector3
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.getRealHeadUpdater
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.DeletionField
-b9fa1828874ccaef9c9eee262d617326 Assembly-CSharp.dll:.Spawner
+e634586b80988375fef4ebdc9b9036d0 Assembly-CSharp.dll:.Spawner
 8a98adc32fad1dca616e9c36d1ca7525 Assembly-CSharp.dll:.MenuColors
 01630b9e450f9e5d67fcd6e4af099264 Assembly-CSharp.dll:.SteamVR_GazeTracker
 7dc4607ea3c4e1c57f92525553793668 Assembly-CSharp.dll:.SteamVR_Menu
