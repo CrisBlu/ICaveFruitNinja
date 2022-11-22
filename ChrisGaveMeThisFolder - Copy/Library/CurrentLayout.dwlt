@@ -45,7 +45,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 121
+  controlID: 9
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -209,7 +209,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 10
+  controlID: 23
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -233,7 +233,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 11
+  controlID: 24
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -327,20 +327,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Ninja/Low Poly Fruits
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Ninja/Low Poly Fruits
+  - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\clave018\ChrisGaveMeThisFolder - Copy\ChrisGaveMeThisFolder
+  m_LastProjectPath: C:\Users\clave018\Github\ICaveFruitNinja-\ICaveFruitNinja\ChrisGaveMeThisFolder
     - Copy
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: e8290000
-    m_LastClickedID: 10728
-    m_ExpandedIDs: 00000000102900005029000076290000e82900005e2a0000442b000000ca9a3bffffff7f
+    m_SelectedIDs: c02e0000
+    m_LastClickedID: 11968
+    m_ExpandedIDs: 00000000c02e0000de2e0000f62e00004e2f00009e2f00004e30000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -368,7 +368,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000001029000050290000762900005e2a0000442b0000
+    m_ExpandedIDs: 00000000c02e0000de2e0000f62e00004e2f00009e2f00004e300000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -395,7 +395,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000e265000070ebfbff14330000000000007c2d0000262a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -486,9 +486,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 9e300000
-    m_LastClickedID: 12446
-    m_ExpandedIDs: fe61ffff3862ffff3a62ffffaae4ffffe4e4ffffe6e4ffff92fbffff94fbffff000000003c3000004830000096340000
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: f0ecfffff2ecffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -573,7 +573,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.08180648, y: 0.0005914509, z: -0.000048265538, w: 0.9966481}
     speed: 2
-    m_Value: {x: 0.08180648, y: 0.0005914509, z: -0.000048265538, w: 0.9966481}
+    m_Value: {x: -0.08180648, y: -0.0005914509, z: 0.00004826554, w: -0.99664813}
   m_Size:
     m_Target: 1.8046341
     speed: 2
