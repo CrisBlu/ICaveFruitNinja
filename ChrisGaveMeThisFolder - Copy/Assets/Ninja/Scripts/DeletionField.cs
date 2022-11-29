@@ -39,8 +39,9 @@ public class DeletionField : MonoBehaviour {
 			} else
             {
 				lostLives--;
+				hitText.text = hitText.text.Substring(0, hitText.text.Length - 1);
 
-            }
+			}
 
 			
 

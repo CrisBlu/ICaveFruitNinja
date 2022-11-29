@@ -6,6 +6,11 @@ public class Bomb : MonoBehaviour {
 
 	public DeletionField df;
 
+	void Start()
+    {
+		df = GameObject.Find("DeletionField").GetComponent<DeletionField>();
+	}
+
 	void Update () {
 		
 	}
