@@ -36,9 +36,5 @@ public class SwordLagCompensation : MonoBehaviour {
 			fuck.transform.localScale = new Vector3(.01f, fuck.transform.localScale.y, fuck.transform.localScale.z);
 
 		}
-		
-		Debug.Log("CP" + currentPosition);
-		Debug.Log("PP" + previousPosition);
-		Debug.Log("Between" + between);
 	}
 }

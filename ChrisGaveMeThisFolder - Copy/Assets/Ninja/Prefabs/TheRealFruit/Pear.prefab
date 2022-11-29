@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 54159906122525516}
   - component: {fileID: 135419860662170066}
   - component: {fileID: 114492390336084968}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Pear
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -120,7 +120,7 @@ SphereCollider:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1896071591811768}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.01
