@@ -111,7 +111,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 000a44bead014dd4e83addbab9d5573a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fruitSlicedPrefab: {fileID: 1254182539315806, guid: fa3bf585276e02946bdef25f4fc91383,
+  fruitSlicedPrefab: {fileID: 1967517132519514, guid: fa41a20b40959134ca21ea80e59cb2e0,
     type: 2}
 --- !u!135 &135598097878395254
 SphereCollider:
