@@ -1,6 +1,6 @@
 WindowsStandalone
 PlayerPath?
-//bear-ad.cs.fiu.edu/homes/Desktop/TheRealDealNinja/TheRealDealNinja.exe
+//bear-ad.cs.fiu.edu/homes/Desktop/TheRealDealNinja/Ninja0.8.exe
 SceneListBegin?
 Assets/Title 1.unity
 Assets/Lucas'sGame.unity
@@ -22,6 +22,7 @@ ff05dcdf90651c3d98a9cad3df5e471e UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 92d7a83ea3c7404e484f3b2eed421855 UnityEngine.Timeline.dll:UnityEngine.Timeline.GroupTrack
 92d7a83ea3c7404e484f3b2eed421855 UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 df374c01140c2d578bf70cbd60073d1d UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
+714868d9f9955f7d2127a9a9efcf636e Assembly-CSharp.dll:.Bomb
 26c4c6ada983faf85fb0118eb6af6cba Assembly-CSharp.dll:.TestSyncListUInt
 08d685ee6e0e5688e9394c48537bdf79 Assembly-CSharp.dll:.MultiUserCloning
 750a6ed2887d0cb73f15427d15caaf82 Assembly-CSharp.dll:.SteamVRPlayerInputs
@@ -170,7 +171,7 @@ c51d9557cd0053963ba05693c5a33ed6 Assembly-CSharp.dll:.MenuSettings
 f9e08c059aa421555b007ffddceef706 Assembly-CSharp.dll:.getRealAimAndGoController
 26c4c6ada983faf85fb0118eb6af6cba Assembly-CSharp.dll:.TestSyncListVector3
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.getRealHeadUpdater
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.DeletionField
+fbee808ee466ba91b4945b7d7d2f14bf Assembly-CSharp.dll:.DeletionField
 e634586b80988375fef4ebdc9b9036d0 Assembly-CSharp.dll:.Spawner
 8a98adc32fad1dca616e9c36d1ca7525 Assembly-CSharp.dll:.MenuColors
 01630b9e450f9e5d67fcd6e4af099264 Assembly-CSharp.dll:.SteamVR_GazeTracker
@@ -210,7 +211,7 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 528ea1fd7c01796fc60c4e2f172ea229 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
 108ae06975a2b39dbe8dddd0a7f55b46 Assembly-CSharp.dll:.SteamVR_Skybox
 80bfaddfacd42fe53cdf7f53934dfb48 Assembly-CSharp.dll:.GrabbingWand
-3ad27c28ee492c9a8f6b5153aaeb4ef0 Assembly-CSharp.dll:.SwordLagCompensation
+e022c7f8a1d26caaa1bb926ffc38d96c Assembly-CSharp.dll:.SwordLagCompensation
 05524b8f659e7bfe5756d1335fec24ba getReal3D.dll:getReal3D.DebuggerUI
 05524b8f659e7bfe5756d1335fec24ba getReal3D.dll:getReal3D.InputManager
 3f2fc9e6da019008c88dba3c35c5d1fb getReal3D.dll:getReal3D.MultiCluster.NetworkIdentity
@@ -262,7 +263,7 @@ bd3a11032cca90e2d06182d04c8ed085 Assembly-CSharp.dll:.LightsMenuUI
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ToggleStereo
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.TestSyncVar
 059a61aafb7fa82ef480978727dfbe83 Assembly-CSharp.dll:.HMDConnectionHUD
-22b3eb0f3169eb388dd7511b8da06eae Assembly-CSharp.dll:.FruitCut
+018bf11ee3569f2c3b055c5a06633725 Assembly-CSharp.dll:.FruitCut
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.SteamVRPlayerSetup
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.MultiClusterPlayerSetup
 b43d54bff7786df4ee036b1b03addd4c Assembly-CSharp.dll:.getRealWandDriveController
@@ -276,3 +277,5 @@ e383a25b86715cbe5743cbaaf7c494d2 Assembly-CSharp.dll:.SteamVR_Frustum
 72b15d35918a073c7019e79218d45456 Assembly-CSharp.dll:.SteamVR_Camera
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.getRealWandUpdater
 23e43dcbce1ff85332caff45f184c3d5 Assembly-CSharp.dll:.getReal3DPlayerInputs
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.MainThemeScript
+a2b4c81ec85eb56f3e6ac807eb4a9ca3 Assembly-CSharp.dll:.AudioManager
