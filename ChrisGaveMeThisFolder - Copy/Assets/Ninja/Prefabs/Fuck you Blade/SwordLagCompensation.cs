@@ -7,6 +7,11 @@ public class SwordLagCompensation : MonoBehaviour {
 	public GameObject fuck;
 	Vector3 currentPosition;
 	Quaternion currentRotation;
+
+	[SerializeField] private AudioSource fruitSlicing;
+	Collider cutTrigger;
+
+
 	// Use this for initialization
 	void Start () {
 		
@@ -37,4 +42,20 @@ public class SwordLagCompensation : MonoBehaviour {
 
 		}
 	}
+
+	private void Awake()
+    {
+		fruitSlicing = GetComponent<AudioSource>();
+		cutTrigger = GetComponent<Collider>();
+    }
+
+	void OnTriggerEnter(Collider collider)
+    {
+		if (collider.gameObject.GetComponentInParent<Fruit>() != null || collider.gameObject.GetComponent<ButtonFruit>() != null)
+		{
+			Debug.Log("Collision");
+			fruitSlicing.Play();
+		}
+    }
+
 }
