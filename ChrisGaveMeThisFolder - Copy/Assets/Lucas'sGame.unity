@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.533414, g: 0.28246865, b: 0.008381816, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -491,6 +491,12 @@ Prefab:
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 114843574737839082, guid: 1bc5e91178d1ed749979c5e503dc8ec2,
+        type: 2}
+      propertyPath: fruits.Array.data[5]
+      value: 
+      objectReference: {fileID: 1544312414398778, guid: bf9ed9e9be4b9064dacc4f94fab77e40,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1bc5e91178d1ed749979c5e503dc8ec2, type: 2}
   m_IsPrefabParent: 0
