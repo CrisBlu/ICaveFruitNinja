@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 33402944869934468}
   - component: {fileID: 23320276836304352}
   - component: {fileID: 54154349823932142}
+  - component: {fileID: 114370242556691680}
   m_Layer: 9
   m_Name: peach.003
   m_TagString: Untagged
@@ -40,6 +41,7 @@ GameObject:
   - component: {fileID: 33397053466610040}
   - component: {fileID: 23403474618411134}
   - component: {fileID: 54021426630076718}
+  - component: {fileID: 114971159548566098}
   m_Layer: 9
   m_Name: peach.002
   m_TagString: Untagged
@@ -220,3 +222,25 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &114370242556691680
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1070367457102856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 703ea876812ed74489200c7f4b699839, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114971159548566098
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1431981007286632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 703ea876812ed74489200c7f4b699839, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
