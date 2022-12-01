@@ -21,13 +21,8 @@ public class ButtonFruit : MonoBehaviour
 
 	void OnTriggerEnter(Collider other)
 	{
-		StartCoroutine(SceneSwap());
-		//SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-	}
-
-	IEnumerator SceneSwap()
-    {
-
 		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 	}
+
+	
 }
