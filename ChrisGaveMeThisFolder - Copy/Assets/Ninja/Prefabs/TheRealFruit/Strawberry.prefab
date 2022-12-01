@@ -111,7 +111,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 000a44bead014dd4e83addbab9d5573a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fruitSlicedPrefab: {fileID: 1807858482255930, guid: 188ed2376366e114d84a7220cb0f562d,
+  fruitSlicedPrefab: {fileID: 1220755341384482, guid: 188ed2376366e114d84a7220cb0f562d,
     type: 2}
   df: {fileID: 0}
 --- !u!135 &135300027744448720
