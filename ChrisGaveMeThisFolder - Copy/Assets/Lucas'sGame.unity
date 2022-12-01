@@ -317,7 +317,7 @@ MeshRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 605449380}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -1167,6 +1167,7 @@ MonoBehaviour:
   prefab: {fileID: 1260914607021840, guid: 1bc5e91178d1ed749979c5e503dc8ec2, type: 2}
   seconds: 0
   scale: 1
+  whooshSpawn: {fileID: 2048904304}
 --- !u!82 &2048904304
 AudioSource:
   m_ObjectHideFlags: 0

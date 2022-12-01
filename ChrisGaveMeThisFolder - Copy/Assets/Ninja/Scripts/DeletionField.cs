@@ -21,7 +21,7 @@ public class DeletionField : MonoBehaviour {
         }
 		if(lostLives >= 3f)
         {
-			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
         }
 
 		scoreText.text = score.ToString();

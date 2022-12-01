@@ -1321,6 +1321,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fruitSlicedPrefab: {fileID: 1254182539315806, guid: fa3bf585276e02946bdef25f4fc91383,
     type: 2}
+  df: {fileID: 0}
 --- !u!1 &450766845
 GameObject:
   m_ObjectHideFlags: 0
@@ -3388,7 +3389,7 @@ MeshRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 970329979}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -5874,6 +5875,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fruitSlicedPrefab: {fileID: 1254182539315806, guid: fa3bf585276e02946bdef25f4fc91383,
     type: 2}
+  df: {fileID: 0}
 --- !u!1 &1487712821
 GameObject:
   m_ObjectHideFlags: 0
@@ -6328,6 +6330,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fruitSlicedPrefab: {fileID: 1254182539315806, guid: fa3bf585276e02946bdef25f4fc91383,
     type: 2}
+  df: {fileID: 0}
 --- !u!1 &1669080987
 GameObject:
   m_ObjectHideFlags: 0
